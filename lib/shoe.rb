@@ -16,8 +16,8 @@ BRANDS = []
   
   def brand=(brand)
     @brand = brand
+    brand.unique
     BRANDS << brand
   end
-  binding.pry
 end
   
