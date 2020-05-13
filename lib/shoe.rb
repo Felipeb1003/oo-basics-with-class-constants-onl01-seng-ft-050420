@@ -18,6 +18,7 @@ BRANDS = []
     @brand = brand
     brand.unique
     BRANDS << brand
+    BRANDS
   end
 end
   
