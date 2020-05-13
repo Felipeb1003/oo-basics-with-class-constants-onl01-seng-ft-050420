@@ -8,7 +8,7 @@ BRANDS = []
   def initialize(brand)
     @brand = brand
   end
-binding.pry
+
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
@@ -19,3 +19,4 @@ binding.pry
     BRANDS << brand
   end
 end
+  binding.pry
