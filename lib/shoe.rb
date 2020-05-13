@@ -18,6 +18,6 @@ BRANDS = []
     @brand = brand
     BRANDS << brand
   end
-  binding.prye
+  binding.pry
 end
   
